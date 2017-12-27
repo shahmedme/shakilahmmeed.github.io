@@ -6,6 +6,7 @@ body{
 }
 a{
 	text-decoration: none;
+	color: white;
 }
 button:hover{
 	background: #38ef7d;
@@ -37,10 +38,10 @@ header{
 .menu{
 	width: 47%;
 	margin: 30px 0px 0px 0px;
-	color: white;
 }
 .menu ul{
 	display: flex;
+	color: white;
 	justify-content: space-between;
 }
 
