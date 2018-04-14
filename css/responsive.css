@@ -3,6 +3,9 @@
         padding: 115px 0px 160px;
         margin: 0px;
     }
+    .name{
+        font-size: 50px;
+    }
     .designation{
         font-size: 25px;
         margin: 0px;
