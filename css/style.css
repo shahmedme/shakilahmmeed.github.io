@@ -88,18 +88,19 @@ a{
     border: none;
     background: none;
     text-transform: uppercase;
-    cursor: pointer;
     outline: none;
 }
 .hero-button button.hire{
     background: #2b2b2d;
     color: white;
     padding: 13px 30px;
+    cursor: pointer!important;
 }
 .hero-button button.resume{
     border: 1px solid #2b2b2d;
     padding: 13px 20px;
     margin-left: 5px;
+    cursor: pointer;
 }
 
 
