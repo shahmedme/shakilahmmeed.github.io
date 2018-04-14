@@ -1,86 +1,255 @@
-<!DOCTYPE html>
 <html>
-<head>
-	<title>Shakil Ahmed</title>
-	<link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-	<header>
-		<div class="header-top">
-			<div class="logo">
-				<h1>SHAKIL AHMED</h1>
-			</div>
-			<div class="menu">
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Skills</a></li>
-					<li><a href="#">Experience</a></li>
-					<li><a href="#">Projects</a></li>
-					<li><a href="#">Education</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>
-			</div>
-		</div>
-		<div class="slider">
-			<h1>I'm Shakil Ahmed</h1>
-			<p>Frontend Developer | Data Scientist | Passionate Programmer</p>
-		</div>
-	</header>
-	<div class="projects">
-		<div class="frontend">
-			<button><a href="#" style="color: black"><b>Frontend Development</b></a></button>
-			<div class="frontend-showcase">
-				<div class="frontend-showcase-element">
-					<a href="https://shakilahmmeed.github.io/green-red/" target="_blank" style="color:black">
-					<h3>Green Red</h3>
-					<p>Bangladesh's first Ad network</p>
-					</a>
-				</div>
-				<div class="frontend-showcase-element">
-					<a href="https://shakilahmmeed.github.io/laravel-ecommerce/" style="color: black" target="_blank">
-						<h3>Laravel eCommerce</h3>
-						<p>Ecommerce HTML Template</p>
-					</a>
-				</div>
-				<div class="frontend-showcase-element">
-					<h3>Green Red</h3>
-					<p>Bangladesh's first Ad network</p>
-				</div>
-				<div class="frontend-showcase-element">
-					<h3>Green Red</h3>
-					<p>Bangladesh's first Ad network</p>
-				</div>
-				<div class="frontend-showcase-element">
-					<h3>Green Red</h3>
-					<p>Bangladesh's first Ad network</p>
-				</div>
-				<div class="frontend-showcase-element">
-					<h3>Green Red</h3>
-					<p>Bangladesh's first Ad network</p>
-				</div>
-				<div class="frontend-showcase-element">
-					<h3>Green Red</h3>
-					<p>Bangladesh's first Ad network</p>
-				</div>
-				<div class="frontend-showcase-element">
-					<h3>See More</h3>
-					<p>Click here to see more frontend projects</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="footer">
-		<p>Designed & Developed by <a href="http://www.shakilahmed.me" target="_blank">Shakil Ahmed</a></p>
-		<div class="social">
-			<ul>
-				<li><a href="#">Facebook</a></li>
-				<li><a href="#">Instagram</a></li>
-				<li><a href="#">Twitter</a></li>
-				<li><a href="#">Youtube</a></li>
-				<li><a href="https://github.com/shakilahmmeed" target="_blank">GitHub</a></li>
-			</ul>
-		</div>
-	</div>
-</body>
+    <head>
+        <title>Shakil Ahmed | Front-end Developer</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- FAVICON -->
+        <link rel="shortcut icon" href="img/heart.png">
+
+        <!-- GOOGLE FONTS -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+        <!-- BOOTSTRAP -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        
+        <!-- FONT AWESOME -->
+        <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+
+        <!-- OWL CAROUSEL -->
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+
+        <!-- MAIN CSS -->
+        <link rel="stylesheet" href="css/style.css">
+        
+        <!-- RESPONSIVE CSS -->
+        <link rel="stylesheet" href="css/responsive.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-md">
+                <div class="container">
+                    <div class="navbar-header">
+                        <div class="navbar-brand"><a href="#">Shakil Ahmed</a></div>
+                        <button class="navbar-toggler" data-target="#myNav" data-toggle="collapse"><i class="fa fa-bars"></i></button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="#" class="nav-link">Work</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">About Me</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Hire Me</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="hero">
+                <div class="container">
+                    <div class="row">
+                        <div class="hero-content">
+                            <div class="hlw">Hello, I'm</div>
+                            <div class="name">Shakil Ahmed</div>
+                            <div class="designation">Front-end Developer</div>
+                            <div class="social">
+                                <ul>
+                                    <li><a href="#" style="background: #3a5898"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#" style="background: #14578b"><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href="#" style="background: #56abee"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#" style="background: #007bb6"><i class="fa fa-linkedin"></i></a></li>
+                                    <!-- <li><a href="#" style="background: #fffc00"><i class="fa fa-snapchat"></i></a></li> -->
+                                    <li><a href="#" style="background: #189d0e"><i class="fa fa-whatsapp"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="hero-button">
+                                <button class="hire">Hire Me</button>
+                                <button class="resume">See My Resume</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+
+
+        <!-- EXPERIENCE -->
+
+        <section class="skill section-padd">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 mx-auto text-center">
+                        <div class="title">My Expertise</div>
+                        <div class="sub-title">I've got Chops in all phases of the design process</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 mx-auto text-center exp-content">
+                        <i class="fa fa-instagram"></i>
+                        <div class="exp-title">Strategy</div>
+                        <div class="exp-des">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni ducimus fugit aliquam rem eligendi, totam ut soluta maiores pariatur quae</div>
+                    </div>
+                    <div class="col-md-4 mx-auto text-center exp-content">
+                        <i class="fa fa-instagram"></i>
+                        <div class="exp-title">Strategy</div>
+                        <div class="exp-des">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni ducimus fugit aliquam rem eligendi, totam ut soluta maiores pariatur quae</div>
+                    </div>
+                    <div class="col-md-4 mx-auto text-center exp-content">
+                        <i class="fa fa-instagram"></i>
+                        <div class="exp-title">Strategy</div>
+                        <div class="exp-des">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni ducimus fugit aliquam rem eligendi, totam ut soluta maiores pariatur quae</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!-- WORK -->
+
+        <section class="work section-padd">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 mx-auto text-center">
+                        <div class="title">My Work</div>
+                        <div class="sub-title">Want to see more? <a href="#">Email Me</a></div>
+                    </div>
+                </div>
+                <div class="row work-content">
+                    <div class="col-md-6 work-content-img">
+                        <div class="img"><img class="img-fluid" src="img/project.png" alt="#"></div>
+                    </div>
+                    <div class="col-md-6 work-content-item">
+                        <div class="work-title">Chronicled.org</div>
+                        <div class="work-subtitle">UX/UI Design</div>
+                        <div class="work-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illo maxime ducimus molestias ad inventore vitae quaerat optio animi suscipit, perspiciatis enim molestiae impedit doloribus aspernatur</div>
+                        <button>Visit Website</button>
+                    </div>
+                </div>
+                <div class="row work-content">
+                    <div class="col-md-6 work-content-img">
+                        <div class="img"><img src="img/project2.png" alt="#" class="img-fluid"></div>
+                    </div>
+                    <div class="col-md-6 work-content-item">
+                        <div class="work-title">Chronicled.org</div>
+                        <div class="work-subtitle">UX/UI Design</div>
+                        <div class="work-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illo maxime ducimus molestias ad inventore vitae quaerat optio animi suscipit, perspiciatis enim molestiae impedit doloribus aspernatur</div>
+                        <button>Visit Website</button>
+                    </div>
+                </div>
+                <div class="row work-content">
+                    <div class="col-md-6 work-content-img">
+                        <div class="img"><img src="img/project3.png" alt="#" class="img-fluid"></div>
+                    </div>
+                    <div class="col-md-6 work-content-item">
+                        <div class="work-title">Chronicled.org</div>
+                        <div class="work-subtitle">UX/UI Design</div>
+                        <div class="work-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illo maxime ducimus molestias ad inventore vitae quaerat optio animi suscipit, perspiciatis enim molestiae impedit doloribus aspernatur</div>
+                        <button>Visit Website</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- PERSONAL PROJECTS -->
+
+        <section class="personal-project section-padd">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-6 mx-auto text-center">
+                        <div class="title">Personal Projects</div>
+                        <div class="sub-title">When I'm not freelancing, I'm working on digital products</div>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-6 col-lg-4 pt-5">
+                        <img src="img/1.jpg" alt="#" class="img-fluid">
+                        <p class="pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus enim, laboriosam provident illo, assumenda libero repellat, nemo impedit eum laudantium obcaecati dolore autem aut ipsam</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4 pt-5">
+                        <img src="img/2.jpg" alt="#" class="img-fluid">
+                        <p class="pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus enim, laboriosam provident illo, assumenda libero repellat, nemo impedit eum laudantium obcaecati dolore autem aut ipsam</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4 pt-5">
+                        <img src="img/3.jpg" alt="#" class="img-fluid">
+                        <p class="pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus enim, laboriosam provident illo, assumenda libero repellat, nemo impedit eum laudantium obcaecati dolore autem aut ipsam</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4 pt-5">
+                        <img src="img/4.jpg" alt="#" class="img-fluid">
+                        <p class="pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus enim, laboriosam provident illo, assumenda libero repellat, nemo impedit eum laudantium obcaecati dolore autem aut ipsam</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4 pt-5">
+                        <img src="img/5.jpg" alt="#" class="img-fluid">
+                        <p class="pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus enim, laboriosam provident illo, assumenda libero repellat, nemo impedit eum laudantium obcaecati dolore autem aut ipsam</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4 pt-5">
+                        <img src="img/6.jpg" alt="#" class="img-fluid">
+                        <p class="pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus enim, laboriosam provident illo, assumenda libero repellat, nemo impedit eum laudantium obcaecati dolore autem aut ipsam</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- HIRE -->
+
+        <section class="hire section-padd">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 mx-auto text-center">
+                        <div class="title">Want to work together?</div>
+                        <div class="sub-title">I'm currently accepting new projects and would love to hear about yours. Please take a few minutes to tell me about it.</div>
+                        <button>GET STARTED</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- FOOTER -->
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 mx-auto text-center">
+                        <div class="lgo">SA</div>
+                        <p>Handmade by me &copy; 2018</p>
+                        <ul class="list-unstyled">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+
+
+
+
+
+
+        <!-- JQUERY -->
+        <script src="js/jquery-2.1.3.min.js"></script>
+
+        <!-- BOOTSTRAP -->
+        <script src="js/bootstrap.js"></script>
+        
+        <!-- OWL CAROUSEL -->
+        <script src="js/owl.carousel.min.js"></script>
+
+        <!-- MAIN JS -->
+        <script src="js/script.js"></script>
+    </body>
 </html>
