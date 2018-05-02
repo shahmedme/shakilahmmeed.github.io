@@ -17,9 +17,9 @@ a, a:hover{
 }
 
 
-.section-padd{
+/* .section-padd{
     padding: 110px 0px;
-}
+} */
 .title{
     font-size: 32px;
     font-weight: bold;
@@ -74,7 +74,7 @@ li.nav-item {
     border: 2px solid #2b2b2d;
     border-radius: 39px;
     padding: 1px 17px 0px!important;
-    margin-top: -2px;
+    margin-bottom: 10px;
     cursor: pointer;
 }
 .shrink .round {
@@ -183,9 +183,62 @@ a.resume:hover{
 
 
 
+.skill{
+    padding: 110px 0px 110px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.skill-name {
+    font-size:  23px;
+    font-weight:  bold;
+    margin-bottom: 8px;
+}
+
+.skill-item {
+    padding: 10px 0px;
+}
+
+
+
+
+
+.skill-2{
+    background: #eeeeee;
+    padding: 110px 0px;
+}
+
+.progress {
+    background:  white;
+    height: 5px;
+}
+
+.progress-bar {
+    background:  black;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .work{
     background: #eeeeee;
+    padding: 110px 0px 110px;
 }
 
 .work-content{
@@ -230,7 +283,9 @@ a.resume:hover{
 
 
 
-
+.personal-project{
+    padding: 110px 0px;
+}
 .personal-project img{
     border-radius: 7px;
 }
@@ -241,6 +296,7 @@ a.resume:hover{
 
 .hire{
     background: #fed766;
+    padding: 110px 0px;
 }
 .hire button{
     margin-top: 60px;
