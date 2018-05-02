@@ -25,7 +25,7 @@
         <link rel="stylesheet" href="css/responsive.css">
     </head>
     <body>
-        <header>
+        <header id="home">
             <nav class="navbar navbar-expand-md">
                 <div class="container">
                     <div class="navbar-header">
@@ -34,11 +34,11 @@
                     </div>
                     <div class="collapse navbar-collapse" id="myNav">
                         <ul class="navbar-nav ml-auto">
-                            <li class="nav-item"><a href="#" class="nav-link active">Work</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">About Me</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
-                            <li class="nav-item round"><a href="#" class="nav-link">Hire Me</a></li>
+                            <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                            <li class="nav-item"><a href="#skill" class="nav-link">Skills</a></li>
+                            <li class="nav-item"><a href="#project" class="nav-link">OS Contribution</a></li>
+                            <li class="nav-item"><a href="#work" class="nav-link">Work</a></li>
+                            <li class="nav-item round"><a href="#contact" class="nav-link">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -53,12 +53,12 @@
                             <div class="designation">Front-end Developer</div>
                             <div class="social">
                                 <ul>
-                                    <li><a href="#" style="background: #3a5898"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#" style="background: #14578b"><i class="fa fa-instagram"></i></a></li>
-                                    <li><a href="#" style="background: #56abee"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#" style="background: #007bb6"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="https://www.facebook.com/shakilahmmeed" target="_blank" style="background: #3a5898"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="https://www.twitter.com/shakilahmmeed" target="_blank" style="background: #14578b"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/shakilahmmeed" target="_blank" style="background: #56abee"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="https://www.github.com/shakilahmmeed" target="_blank" style="background: #007bb6"><i class="fa fa-github"></i></a></li>
                                     <!-- <li><a href="#" style="background: #fffc00"><i class="fa fa-snapchat"></i></a></li> -->
-                                    <li><a href="#" style="background: #189d0e"><i class="fa fa-whatsapp"></i></a></li>
+                                    <li><a href="tel:+8801709776055" target="_blank" style="background: #189d0e"><i class="fa fa-whatsapp"></i></a></li>
                                 </ul>
                             </div>
                             <div class="hero-button">
@@ -76,7 +76,7 @@
 
         <!-- EXPERIENCE -->
 
-        <section class="skill section-padd">
+        <section class="skill section-padd" id="skill">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 mx-auto text-center">
@@ -109,7 +109,7 @@
 
         <!-- WORK -->
 
-        <section class="work section-padd">
+        <section class="work section-padd" id="project">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 mx-auto text-center">
@@ -129,14 +129,14 @@
                     </div>
                 </div>
                 <div class="row work-content">
-                    <div class="col-md-6 work-content-img">
-                        <div class="img"><img src="img/project2.png" alt="#" class="img-fluid"></div>
-                    </div>
                     <div class="col-md-6 work-content-item">
                         <div class="work-title">Chronicled.org</div>
                         <div class="work-subtitle">UX/UI Design</div>
                         <div class="work-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illo maxime ducimus molestias ad inventore vitae quaerat optio animi suscipit, perspiciatis enim molestiae impedit doloribus aspernatur</div>
                         <button>Visit Website</button>
+                    </div>
+                    <div class="col-md-6 work-content-img">
+                        <div class="img"><img src="img/project2.png" alt="#" class="img-fluid"></div>
                     </div>
                 </div>
                 <div class="row work-content">
@@ -157,37 +157,37 @@
 
         <!-- PERSONAL PROJECTS -->
 
-        <section class="personal-project section-padd">
+        <section class="personal-project section-padd" id="work">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-6 mx-auto text-center">
-                        <div class="title">Personal Projects</div>
-                        <div class="sub-title">When I'm not freelancing, I'm working on digital products</div>
+                        <div class="title">My Work</div>
+                        <div class="sub-title">Want to see more? <a href="mailto:shakilahmed6055@gmail.com">Email Me</a></div>
                     </div>
                 </div>
                 <div class="row text-center">
                     <div class="col-md-6 col-lg-4 pt-5">
                         <a href="https://shakilahmmeed.github.io/weather" target="_blank"><img src="img/1.jpg" alt="#" class="img-fluid"></a>
-                        <p class="pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus enim, laboriosam provident illo, assumenda libero repellat, nemo impedit eum laudantium obcaecati dolore autem aut ipsam</p>
+                        <p class="pt-4">WeatherX is a responsive HTML template to be used for using as app landing page.</p>
                     </div>
                     <div class="col-md-6 col-lg-4 pt-5">
                         <a href="https://shakilahmmeed.github.io/medilab" target="_blank"><img src="img/2.jpg" alt="#" class="img-fluid"></a>
+                        <p class="pt-4">Medilab is for healthcare organization like hospital, clinic etc. This is also mobile responsive</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4 pt-5">
+                        <a href="https://shakilahmmeed.github.io/beambox" target="_blank"><img src="img/3.jpg" alt="#" class="img-fluid"></a>
+                        <p class="pt-4">Beambox is one of my favourite project. I made this HTML template for product based company. Here I've used Wifi as product.</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4 pt-5">
+                        <a href="https://shakilahmmeed.github.io/frito" target="_blank"><img src="img/4.jpg" alt="#" class="img-fluid"></a>
+                        <p class="pt-4">Frito, this responsive HTML template is for those digital agency who is searching for better UI designed template.</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4 pt-5">
+                        <a href="https://shakilahmmeed.github.io/digital-agency" target="_blank"><img src="img/5.jpg" alt="#" class="img-fluid"></a>
                         <p class="pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus enim, laboriosam provident illo, assumenda libero repellat, nemo impedit eum laudantium obcaecati dolore autem aut ipsam</p>
                     </div>
                     <div class="col-md-6 col-lg-4 pt-5">
-                        <img src="img/3.jpg" alt="#" class="img-fluid">
-                        <p class="pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus enim, laboriosam provident illo, assumenda libero repellat, nemo impedit eum laudantium obcaecati dolore autem aut ipsam</p>
-                    </div>
-                    <div class="col-md-6 col-lg-4 pt-5">
-                        <img src="img/4.jpg" alt="#" class="img-fluid">
-                        <p class="pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus enim, laboriosam provident illo, assumenda libero repellat, nemo impedit eum laudantium obcaecati dolore autem aut ipsam</p>
-                    </div>
-                    <div class="col-md-6 col-lg-4 pt-5">
-                        <img src="img/5.jpg" alt="#" class="img-fluid">
-                        <p class="pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus enim, laboriosam provident illo, assumenda libero repellat, nemo impedit eum laudantium obcaecati dolore autem aut ipsam</p>
-                    </div>
-                    <div class="col-md-6 col-lg-4 pt-5">
-                        <img src="img/6.jpg" alt="#" class="img-fluid">
+                        <a href="https://shakilahmmeed.github.io/digital" target="_blank"><img src="img/6.jpg" alt="#" class="img-fluid"></a>
                         <p class="pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus enim, laboriosam provident illo, assumenda libero repellat, nemo impedit eum laudantium obcaecati dolore autem aut ipsam</p>
                     </div>
                 </div>
@@ -197,13 +197,13 @@
 
         <!-- HIRE -->
 
-        <section class="hire section-padd">
+        <section class="hire section-padd" id="contact">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 mx-auto text-center">
                         <div class="title">Want to work together?</div>
                         <div class="sub-title">I'm currently accepting new projects and would love to hear about yours. Please take a few minutes to tell me about it.</div>
-                        <button>GET STARTED</button>
+                        <a href="mailto:shakilahmed6055@gmail.com"><button style="outline: none;">GET STARTED</button></a>
                     </div>
                 </div>
             </div>
@@ -220,11 +220,11 @@
                         <div class="lgo">SA</div>
                         <p>Handmade by me &copy; 2018</p>
                         <ul class="list-unstyled">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+                            <li><a href="https://www.facebook.com/shakilahmmeed" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="https://www.twitter.com/shakilahmmeed" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/shakilahmmeed" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="https://www.github.com/shakilahmmeed" target="_blank"><i class="fa fa-github"></i></a></li>
+                                    <li><a href="tel:+8801709776055" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
                         </ul>
                     </div>
                 </div>
