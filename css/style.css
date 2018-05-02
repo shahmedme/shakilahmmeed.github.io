@@ -91,9 +91,7 @@ li.nav-item {
 /* HERO */
 
 .hero{
-    background: url('../img/backgroundd.jpg');
-    background-size: cover;
-    background-position: right;
+    background: linear-gradient(to right, #83a4d4, #b6fbff);
 }
 
 .hero-content{

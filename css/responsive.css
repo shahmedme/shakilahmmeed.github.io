@@ -1,9 +1,15 @@
 @media screen and (min-width: 500px){
+    
     .navbar{
         padding: 20px 0px 0px 0px;
     }
     .navbar.shrink {
         padding: 10px 0px 8px;
+    }
+    .hero{
+        background: url('../img/backgroundd.jpg');
+        background-size: cover;
+        background-position: right;
     }
     .hero-content{
         padding: 115px 0px 180px;
