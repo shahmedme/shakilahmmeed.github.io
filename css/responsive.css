@@ -1,6 +1,12 @@
 @media screen and (min-width: 500px){
+    .navbar{
+        padding: 20px 0px 0px 0px;
+    }
+    .navbar.shrink {
+        padding: 10px 0px 8px;
+    }
     .hero-content{
-        padding: 115px 0px 162px;
+        padding: 115px 0px 180px;
         margin: 0px;
     }
     .name{

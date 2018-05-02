@@ -55,14 +55,8 @@ p.line-height {
     z-index:  999;
     transition: 0.2s ease-in;
 }
-
-.navbar.shrink {
-    padding: 10px 0px 8px;
-}
-
-
-.navbar{
-    padding: 20px 0px 0px 0px;
+.shrink .navbar-toggler{
+    color: white;
 }
 .navbar-brand a{
     font-weight: bold;
@@ -133,33 +127,33 @@ li.nav-item {
     margin: 40px 0px 0px;
     margin-left: -3px;
 }
-.hero-button button{
+.hero-button a{
     border-radius: 26px;
     border: none;
     background: none;
     text-transform: uppercase;
-    outline: none;
 }
-.hero-button button.hire{
+.hero-button a.hire{
     background: #2b2b2d;
     color: white;
     padding: 13px 30px 12px;
     cursor: pointer!important;
     transition: 0.1s ease-in;
 }
-button.hire:hover {
+a.hire:hover {
     box-shadow: 3px 3px 22px rgba(0, 0, 0, 0.34);
+    color: white!important;
 }
-button.resume{
+a.resume{
     border: 2px solid #2b2b2d;
     padding: 13px 25px 12px;
     margin-left: 5px;
     cursor: pointer;
     transition: 0.1s ease-in;
 }
-button.resume:hover{
+a.resume:hover{
     background: #2b2b2d;
-    color: white
+    color: white!important;
 }
 
 
@@ -177,6 +171,9 @@ button.resume:hover{
 }
 .exp-des{
     padding-top: 15px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7d7b7b;
 }
 
 
