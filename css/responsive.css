@@ -1,15 +1,18 @@
 @media screen and (min-width: 500px){
     
     .navbar{
-        padding: 20px 0px 0px 0px;
+        padding: 15px 0px 3px 0px;
     }
-    .navbar.shrink {
+    /* .navbar.shrink {
         padding: 10px 0px 8px;
-    }
+    } */
     .hero{
         background: url('../img/backgroundd.jpg');
         background-size: cover;
         background-position: right;
+    }
+    .navbar-brand {
+        margin-top: -13px;
     }
     .hero-content{
         padding: 115px 0px 180px;

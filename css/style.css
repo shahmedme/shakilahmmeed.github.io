@@ -42,6 +42,11 @@ p.line-height {
     line-height: 25px;
 }
 
+a.project-link {
+    border-bottom: 2px dotted #648dff;
+    font-weight:  bold;
+}
+
 
 
 
