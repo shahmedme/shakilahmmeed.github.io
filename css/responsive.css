@@ -7,9 +7,13 @@
         padding: 10px 0px 8px;
     } */
     .hero{
-        background: url('../img/backgroundd.jpg');
-        background-size: cover;
-        background-position: right;
+        background: none;
+        /* background-size: cover;
+        background-position: right; */
+    }
+    .hero-img{
+        display: block;
+        margin: 87px 0px 0px;
     }
     .navbar-brand {
         margin-top: -13px;
