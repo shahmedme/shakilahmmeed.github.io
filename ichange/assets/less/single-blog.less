@@ -1,0 +1,95 @@
+.blog-area{
+    padding-bottom: 100px;
+
+    .single-blog-card {
+        margin-top: 45px;
+        color: rgba(0, 0, 0, 0.8);
+
+        .line {
+            height: 1px;
+            width:  100%;
+            background: @line;
+            opacity: 0.5;
+        }
+        header{
+            background: @white;
+            display: block;
+            
+            .single-blog-meta{
+                padding: 15px 22px 0px;
+
+                p {
+                    margin: 14px 0px;
+                }
+                p.date{
+                    font-size: 12px;
+                    margin: 10px 0px;
+                    font-style: italic;
+                }
+            }
+        }
+        .single-blog-content {
+            background: @white;
+            padding: 15px 20px;
+
+            h6 {
+                margin-top: 30px;
+            }
+            i.fa-quote-right {
+                font-size: 53px;
+            }
+        }
+        .social-share{
+            background: @brand-color;
+            color: @white;
+            display: flex;
+            justify-content: space-between;
+            padding: 0px 15px;
+            margin-top: 15px;
+        
+            .social-share-inner{
+                h4{
+                    display: inline-block;
+                }
+                ul.social{
+                    display: inline-block;
+                    padding: 0px;
+                    margin-left: 10px;
+            
+                    li{
+                        list-style: none;
+                        display: inline;
+            
+                        a{
+                            background: @white;
+                            color: @brand-color;
+                            width: 27px;
+                            line-height: 27px;
+                            display: inline-block;
+                            text-align: center;
+                            margin: 0px 2px;
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+            ul.reaction{
+                padding: 0px;
+                margin-top: 11px;
+        
+                li{
+                    list-style: none;
+                    display: inline;
+                    margin-left: 10px;
+        
+                    a{
+                        i.fa {
+                            margin-right: 2px;
+                        }
+                    }
+                }
+            }
+        } 
+    
+    }
+}

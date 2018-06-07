@@ -1,0 +1,183 @@
+
+/* rules for body contents */
+html {
+  font-size: 62.5%; // Now 10px = 1rem! /
+}
+
+body {
+  font-family: @default-font ;
+  .font-size(@font-size-base);
+  .bg-rgba(@white);
+  color: @black;
+ 
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: @heading-font;
+  font-weight: @heading-weight-bold;
+ 
+}
+
+h1, .h1 {
+  .font-size(72);
+  
+  a {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+}
+.h1-sm {
+  .font-size(48);
+  
+  a {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+}
+
+h2, .h2 {
+  .font-size(48);
+  a {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+}
+.h2-sm {
+  .font-size(36);
+  
+  a {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+}
+
+h3, .h3 {
+  .font-size(36);
+  a {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+}
+.h3-sm {
+  .font-size(24);
+  
+  a {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+}
+
+h4, .h4 {
+  .font-size(24);
+  a {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+}
+.h4-sm {
+  .font-size(22);
+  
+  a {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+}
+
+h5, .h5 {
+  .font-size(22);
+  a {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+}
+.h5-sm {
+  .font-size(18);
+  
+  a {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+}
+
+h6, .h6 {
+  .font-size(18);
+  a {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+}
+.h6-sm {
+  .font-size(15);
+  
+  a {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+}
+
+p, ul, ol{
+  font-family: @default-font ;
+  .font-size(@font-size-base);
+  color: inherit;
+  
+}
+
+p{
+  margin-bottom: 10px;
+}
+
+a, a:hover, a:focus {
+  color: inherit;
+  &:hover{
+    text-decoration: none;
+  }
+}
+
+.brand-color{
+  color: @brand-color;
+}
+
+
+
+
+.hashtag a{
+  .font-size(30);
+}
+
+p.letter{
+  font-family: @letter-font;
+  .font-size(36);
+  font-weight: @letter-weight-regular;
+}
+
+.btn-brand {
+  padding: 14px 45px;
+  display: inline-block;
+  border: none;
+  border-radius: 27px;
+  background-color: @brand-color;
+  color: @white;
+  cursor: pointer;
+}
+.btn-brand-sm{
+  display: inline-block;
+  padding: 3px 20px;
+  border-radius: 21px;
+  color: @white;
+  background-color: @brand-color;
+  border: none;
+  cursor: pointer;
+  
+  &:hover{
+    color: @white;
+  }
+}
+.btn-brand-md{
+  padding: 8px 50px;
+  border: none;
+  background-color:  @brand-color;
+  color: @white;
+  border-radius: 30px;
+  cursor: pointer;
+}

@@ -1,0 +1,159 @@
+.registration{
+    padding: 25px 0px;
+    
+    input{
+        &:focus{
+            outline: none;
+        }
+    }
+    .registration-card{
+        padding: 20px 0px;
+        position: relative;
+
+        .login-area{
+            box-shadow: 0 0 31px rgba(0,0,0,.15);
+            padding: 20px;
+
+            p{
+                text-align: center;
+                font-size: 22px;
+                margin-bottom: 20px;
+            }
+            input{
+                display: block;
+                width: 100%;
+                padding: 8px 10px;
+                border-radius: 20px;
+                border: 1px solid @brand-color;
+                text-align: center;
+                
+                &:focus{
+                    &::placeholder{
+                        visibility: hidden;
+                    }
+                }
+                &::placeholder{
+                    text-align: center;
+                    font-size: 13px;
+                }
+            }
+            input[type="submit"]{
+                font-weight: bold;
+            }
+        }
+        .signup-area{
+            margin-top: 30px;
+            box-shadow: 0 0 31px rgba(0,0,0,.15);
+            padding: 20px 15px 15px;
+
+            h6{
+                text-align: center;
+                .font-size(24);
+            }
+            .signup-field{
+            
+                input[type="text"], input[type="email"], input[type="password"]{
+                    width: 100%;
+                    opacity: 0.7;
+                    padding: 4px 5px;
+                }
+                textarea{
+                    width: 100%;
+                    padding: 4px 5px;
+
+                    &:focus{
+                        outline: none;
+                    }
+                }
+                input[type="file"]{
+                    display: none;
+
+                    & + label{
+                        padding: 9px 15px 6px;
+                        background: @upload-bg;
+                        border: 1px solid rgba(0, 0, 0, 0.1);
+                        margin: 0px 0px 5px;
+                        cursor: pointer;
+    
+                        i{
+                            color: @brand-color;
+                            margin-right: 6px;
+                            font-size: 17px;
+                        }
+                    }
+                }
+                input[type="submit"] {
+                    padding: 4px 30px;
+                    border-radius: 34px;
+                    font-weight: bold;
+                }
+                input[type=radio]:checked, input[type="radio"]:not(:checked){
+                    position: absolute;
+                    left: -9999px;
+
+                    & + label{
+                        position: relative;
+                        padding-left: 25px;
+                        padding-right: 10px;
+                        cursor: pointer;
+                        line-height: 20px;
+                        display: inline-block;
+                        color: #666;
+
+                        &::before{
+                            content: '';
+                            position: absolute;
+                            left: 0;
+                            top: 0;
+                            width: 18px;
+                            height: 18px;
+                            border: 1px solid #ddd;
+                            border-radius: 100%;
+                            background: #fff;
+                        }
+                        &::after{
+                            content: '';
+                            width: 10px;
+                            height: 10px;
+                            background: @brand-color;
+                            position: absolute;
+                            top: 4px;
+                            left: 4px;
+                            border-radius: 100%;
+                            -webkit-transition: all 0.2s ease;
+                            transition: all 0.2s ease;
+                        }
+                    }
+                }
+                input[type="radio"]:not(:checked) + label:after {
+                    opacity: 0;
+                    -webkit-transform: scale(0);
+                    transform: scale(0);
+                }
+                input[type="radio"]:checked + label:after {
+                    opacity: 1;
+                    -webkit-transform: scale(1);
+                    transform: scale(1);
+                }
+
+
+
+                label{
+                    font-weight: 700;
+                }
+                .agreement-field{
+                    .agreement-checkbox-wrapper{
+                        display: flex;
+                        margin: 7px 0px;
+
+                        label{
+                            font-weight: normal;
+                            font-size: 12px;
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+}
