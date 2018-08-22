@@ -1,0 +1,100 @@
+@media screen and (min-width: 765px){
+    ul li{
+        display: inline-block;
+    }
+
+    .hero-content .hero-btn-grp{
+        font-size: 16px;
+    }
+
+    a.nav-link.sign-up {
+        border: 2px solid #83cd32;
+        padding: 6px 25px 6px!important;
+        border-radius: 4px;
+        margin: 3px 0px 0px 10px;
+        transition:  0.1s ease-in;
+    }
+    
+    a.nav-link.sign-up:hover {
+        background: #9cda58;
+        color: white;
+    }
+
+    a.nav-link.log-in, a.nav-link.sign-up{
+        font-weight: 500;
+    }
+
+    .hero-content{
+        padding: 140px 0px 210px;
+    }
+
+    .featured-card{
+        padding: 22px 0px;
+        margin: 0px;
+    }
+    .sec-five-content{
+        padding-bottom: 0px;
+    }
+    .sec-five ul li{
+        padding: 17px 180px 17px 22px;
+    }
+    .sub-box-wrapper{
+        display: block;
+    }
+    .clients{
+        padding: 80px 0px 310px;
+    }
+    .sub-box{
+        padding: 70px 100px;
+        background: white;
+        color: black;
+        border-radius: 4px;
+        position: absolute;
+        top: 92px;
+        left: 45px;
+        box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.15);
+    }
+    .sub-box h2 {
+        font-weight:  bold;
+        opacity: 0.8;
+    }
+    
+    .sub-box p {
+        font-weight:  bold;
+        padding-bottom: 30px;
+        opacity: 0.8;
+    }
+    
+    .sub-box form {
+        display:  flex;
+        justify-content: center;
+    }
+    .sub-box .underline{
+        opacity: 0.8;
+    }
+    
+    .sub-box input[type="email"] {
+        padding: 9px 50px 9px 10px;
+        border:  2px solid rgba(0, 0, 0, 0.2);
+        border-radius:  4px 0px 0px 4px;
+        border-right:  none;
+        outline:  none;
+    }
+    
+    .sub-box input[type="submit"] {
+        padding: 9px 30px;
+        background: #83cd32;
+        color: white;
+        border-radius:  0px 4px 4px 0px;
+        outline:  none;
+        cursor: pointer;
+        border: none;
+    }
+    .sub-box input[type="submit"]:focus {
+        padding: 5px 28px;
+        border: 2px solid #83cd32;
+    }
+    footer{
+        padding: 250px 0px 80px;
+    }
+}

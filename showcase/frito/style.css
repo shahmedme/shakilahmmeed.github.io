@@ -1,0 +1,554 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+a, a:hover{
+    color: inherit;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li{
+    display: inline-block;
+}
+
+h1, h2, h3, p{
+    margin: 0px;
+    padding: 0px;
+}
+
+input:focus{
+    outline: none;
+}
+
+
+
+
+
+
+
+header{
+    background: url('assets/img/hero-bg.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    color: rgba(255, 255, 255, 0.9);
+}
+header::after{
+    content: "";
+    background: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+.top-nav{
+    display: none;
+}
+.top-nav-content {
+    display:  flex;
+    justify-content:  space-between;
+    padding: 20px 0px 0px;
+}
+
+.top-nav-contact {
+    display:  flex;
+}
+
+.top-nav-contact p {
+    padding-right: 59px;
+}
+
+.top-nav-contact ul.social li {
+    padding: 0px 5px;
+    color: rgba(165, 165, 165, 0.98);
+}
+.top-nav-contact ul.social li a.active {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+a.top-nav-anchor {
+    border-bottom:  1px solid white;
+}
+
+
+
+
+
+
+.navbar-toggler{
+    color: white;
+}
+a.nav-link.login {
+    background:  #06d56b;
+    padding: 5px 20px!important;
+    border-radius: 4px;
+    display: block;
+    margin: 3px 0px 0px;
+}
+
+li.nav-item {
+    padding: 0px 8px;
+}
+
+nav.navbar {
+    color: white;
+}
+
+a.navbar-brand {
+    font-size:  30px;
+    font-weight:  bold;
+    margin-top: -2px;
+    padding: 0px;
+}
+#myNav {
+    background:  black;
+    padding: 8px 10px 20px;
+    margin: 0px -5%;
+}
+
+
+
+
+
+
+
+.hero-content {
+    padding: 80px 0px 89px;
+    max-width: 650px;
+}
+
+.hero-content p {
+    font-size: 30px;
+}
+
+.hero-content h1 {
+    font-weight:  bold;
+    font-size: 58px;
+    color:  white;
+    padding-top: 14px;
+}
+
+.hero-content h1 span {
+    color:  #06d56b;
+}
+
+.hero-content a.button {
+    margin-top: 50px;
+    display: inline-block;
+    padding: 9px 20px;
+    border: 2px solid white;
+    border-radius:  4px;
+    font-size: 16px;
+    transition:  0.1s ease-in;
+}
+
+.hero-content a.button:hover {
+    background:  white;
+    color: black;
+    border: 2px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+.strong{
+    font-weight: bold;
+}
+
+section.feature {
+    padding: 60px 0px;
+    opacity:  0.9;
+}
+
+.section-intro h1 {
+    font-weight:  bold;
+    word-spacing: 4px;
+    line-height: 52px;
+}
+.section-title {
+    font-weight:  bold;
+    word-spacing: 4px;
+    line-height: 52px;
+}
+
+.feature .section-intro p {padding: 25px 0px;}
+
+.feature-gallery {
+    padding-top: 55px;
+    text-align: center
+}
+.feature-gallery >* {
+    margin-top: 40px;
+}
+
+.feature-card small {
+    display:  block;
+    padding: 20px 0px 5px;
+    font-weight:  bold;
+    opacity:  0.7;
+}
+
+.feature-card p {
+    opacity:  0.7;
+}
+
+
+
+
+section.about-us{
+    opacity: 0.9;
+    padding-bottom: 100px;
+}
+.about-us-gallery > * {
+    padding: 0px;
+}
+.about-us-gallery .col-md-5 {
+    background: url('assets/img/about-us.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.about-us-content {
+    padding: 0px 7%;
+}
+
+.section-sub-title {
+    font-weight:  bold;
+    font-size: 17px;
+    text-transform:  uppercase;
+    opacity:  0.7;
+}
+
+.about-us-content .section-title {
+    padding-top: 23px;
+}
+
+p.about-us-main {
+    padding-top: 18px;
+}
+
+.img {
+    display:  inline-block;
+}
+.img.ava {
+    margin-right: 12px;
+}
+.ceo {
+    display: flex;
+    justify-content: space-between;
+    padding: 41px 0px 20px;
+    max-width: 397px;
+}
+.about-us-content a.button {
+    margin: 15px 0px 0px;
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 9px 12px 8px;
+    border-radius: 4px;
+}
+
+
+
+.service-card b {
+    display: block;
+    padding: 15px 0px;
+    text-transform:  uppercase;
+    font-size: 20px;
+}
+
+.service-card {
+    text-align:  center;
+    background:  white;
+    padding: 65px 50px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+section.service {
+    background:  #fbfcff;
+    padding: 80px 0px;
+    opacity: 0.9;
+}
+
+.service-gallery {
+    padding-top:  40px;
+}
+
+.service-card p {
+    padding-bottom: 40px;
+}
+
+.service-card i.fa.fa-long-arrow-right {
+    font-size: 23px;
+    margin-left: -14px;
+}
+
+section.service a.button {
+    margin: 74px auto 0px;
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 9px 12px 8px;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.pricing-content h1.section-title {
+    padding: 5px 0px 28px;
+}
+
+section.pricing {
+    padding:  60px 0px;
+    opacity: 0.9;
+}
+
+.pricing-content p.section-content-main {
+    padding-bottom:  25px;
+}
+
+.button-group {
+    display:  flex;
+    margin-bottom: 30px;
+}
+
+.button-group a.button {
+    padding: 11px 20px 10px;
+    display: inline-block;
+    font-weight:  bold;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-left:  none;
+    border-radius:  0px 5px 5px 0px;
+}
+
+a.button.green {
+    background: #06d56b;
+    color: white;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    padding: 11px 25px 10px;
+}
+
+.pricing-card {
+    text-align:  center;
+    line-height: 39px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 42px 0px;
+    border-radius: 4px;
+    margin-top: 13px;
+}
+
+h1.price {
+    font-weight:  bold;
+    font-size: 50px;
+    padding: 10px 0px;
+}
+
+a.pricing-signup {
+    color:  #06d56b;
+    margin-top: 26px;
+    font-weight:  bold;
+    display:  inline-block;
+}
+
+
+section.testimonial {
+    padding: 20px 0px 100px;
+    opacity:  0.9;
+}
+
+.testimonial h1.section-title {
+    padding: 10px 0px;
+}
+
+.testimonial-card {
+    margin-top:  50px;
+}
+
+.testimonial-card p {
+    padding: 20px 30px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius:  4px;
+}
+
+.testimonial-author {
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+.testimonial-author b {
+    display:  block;
+    line-height: 31px;
+}
+
+
+
+section.promo{
+    background: url('assets/img/promo-bg.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+    position: relative;
+    z-index: 1;
+    padding: 80px 0px;
+    color: white;
+}
+section.promo::after{
+    content: "";
+    background: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+    z-index: -1;
+}
+
+.promo p {font-size: 28px;}
+
+.promo a.button {
+    margin-top: 30px;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid;
+    border-radius:  4px;
+    font-size:  15px;
+}
+
+
+
+
+section.news {
+    padding:  100px 0px 0px;
+}
+
+.news h1.section-title {
+    padding-top: 10px;
+}
+
+.news-gallery {
+    padding-top: 60px;
+}
+
+p.news-author {
+    padding: 19px 0px 8px;
+}
+
+p.news-title {
+    font-size: 19px;
+    font-weight:  bold;
+    padding-bottom: 12px;
+}
+.news-card {
+    margin-bottom: 40px;
+}
+.
+
+/* .news-card:hover {
+    box-shadow:  0px 0px 6px rgba(0, 0, 0, 0.15);
+} */
+
+
+
+
+section.client {
+    padding-bottom:  100px;
+}
+section.client >* {
+    margin: 0px auto;
+    text-align: center;
+}
+
+
+
+
+footer {
+    background: black;
+    color:  white;
+    padding: 80px 0px 60px;
+    opacity: 0.8;
+}
+.logo{
+    margin: 0px auto;
+}
+.footer-nav {
+    display:  flex;
+    justify-content:  space-between;
+    padding-top: 61px;
+    text-align: center;
+}
+
+.copy-social {
+    display:  flex;
+    justify-content:  space-between;
+    padding-top: 18px;
+}
+.copy-social >* {
+    margin: 0px auto;
+}
+
+ul.footer-navbar li {
+    padding: 0px 10px;
+}
+
+.copy-social ul.social li {
+    padding: 0px 6px;
+}
+
+ul.footer-navbar {
+    margin-top: 10px;
+}
+
+.subscription-box {
+    text-align:  center;
+}
+
+
+.subscription-box-content input {
+    padding: 9px 20px 8px;
+    border: none;
+    margin: 24px 5px 0px;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background:  #06d56b;
+    color:  white;
+    width: 160px;
+}
+
+.subscription-box-content h1.section-title {
+    font-size: 35px;
+    font-weight: 700;
+}

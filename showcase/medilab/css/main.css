@@ -1,0 +1,185 @@
+body{
+    font-family: 'Open Sans'!important;
+}
+.theme-color{
+    color: #0cb8b6;
+}
+a:hover{
+    text-decoration: none;
+}
+
+
+
+
+.hero{
+    background: url('../img/bg-banner.jpg');
+    color: white;
+}
+.hero-overlay{
+    background: rgba(2, 39, 39, 0.7);
+}
+.hero-content{
+    padding: 135px 0px;
+}
+.hero-title{
+    font-family: 'Candal';
+}
+.hero-button{
+    background: #0dadad!important;
+    font-size: 13px;
+}
+.hero-content img, .hero-content h1, .hero-content p{
+    padding: 7px 0px;
+}
+
+
+
+
+.service{
+    padding: 60px 0px;
+    opacity: 0.8;
+}
+.service i{
+    color: #0cb8b6;
+}
+.service h5{
+    font-weight: bold;
+    margin: 30px 0px;
+    opacity: 0.9;
+}
+.service p{
+    opacity: 0.8;
+}
+@media only screen and(max-width: 500px)
+{
+    .mbl{
+        color: red!important;
+    }
+}
+
+
+.emergency{
+    padding: 0px 0px 60px;
+}
+.emergency-card{
+    padding: 35px;
+    background: #0cb8b6;
+    color: white;
+}
+.emergency-card h2, .emergency-card p{
+    opacity: 0.9;
+}
+.emergency-card p{
+    padding: 20px 0px;
+}
+
+
+
+.dream{
+    background: #fcfcfc;
+    padding: 68px 0px 95px;
+}
+
+
+
+
+.doctors{
+    padding: 60px 0px 80px;
+}
+.doctors h3{
+    padding: 0px 0px 25px;
+    opacity: 0.9;
+}
+.doctors h4{
+    padding: 25px 0px 0px 10px;
+}
+.doctors p{
+    padding: 0px 0px 0px 10px;
+}
+.doctors ul{
+    padding: 0px 0px 0px 10px;
+}
+.doctors ul li{
+    padding: 0px 1px;
+}
+.doctor-card i{
+    color: #337ab7;
+}
+.doctor-card{
+    //box-shadow: 0px 0px 3px #1e1e1e;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.doctor-card:hover{
+    transform: translate(0px, 10px);
+    transition: all ease-in-out 100ms;
+}
+.gutt > [class*='col-']{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+
+
+.testimonials{
+    background: #eeeeee;
+    padding: 60px 0px 65px;
+}
+
+
+
+.contact{
+    padding: 60px 0px;
+}
+.contact li{
+    padding: 25px 0px;
+    opacity: 0.9;
+}
+.contact li i{
+    padding: 0px 20px;
+}
+.contact li p{
+    font-size: 18px;
+    display: inline;
+}
+
+
+
+.about-us{
+    padding: 70px 0px;
+    background: #29302e;
+}
+.about-us h3{
+    opacity: 0.9;
+}
+.about-us p{
+    opacity: 0.7;
+}
+
+
+
+footer{
+    background: #325c6a;
+    color: white;
+    padding: 52px 0px 20px;
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    color: white;
+}
+.footer-link{
+    border-bottom: 1px solid #4b707c;
+    padding-bottom: 30px;
+}
+.footer-link h5{
+    margin-bottom: 35px;
+}
+.social a{
+    padding: 13px 17px;
+}
+.copyright{
+    padding: 30px 0px 0px;
+}
