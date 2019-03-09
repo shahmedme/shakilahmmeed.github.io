@@ -257,10 +257,10 @@ a.resume:hover{
     margin: 0 auto;
     text-align: center;
 }
-.work-content img{
+/* .work-content img{
     display: block;
     border-radius: 12px;
-}
+} */
 .work-title{
     font-size: 28px;
     font-weight: bold;
@@ -273,18 +273,19 @@ a.resume:hover{
 }
 .work-content button{
     margin-top: 40px;
-    padding: 9px 30px;
+    padding: 10px 35px 9px;
     border: 2px solid #fed766;
     border-radius: 40px;
     background: none;
     cursor: pointer;
     text-transform: uppercase;
     font-weight: bold;
-    transition: 0.1s ease-in;
+    transition: 0.2s ease-in;
 }
 .work-content button:hover{
-    background: #fed766;
-    color: white;
+    background: #212529;
+    color: #fed766;
+    border: 2px solid #212529;
 }
 
 
@@ -293,9 +294,6 @@ a.resume:hover{
 
 .personal-project{
     padding: 110px 0px;
-}
-.personal-project img{
-    border-radius: 7px;
 }
 
 
@@ -306,7 +304,7 @@ a.resume:hover{
     background: #fed766;
     padding: 110px 0px;
 }
-.hire button{
+.hire button, .theme-button{
     margin-top: 60px;
     padding: 13px 40px;
     border: 2px solid black;
