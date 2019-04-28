@@ -1,0 +1,19 @@
+<footer class="footer">
+  <div class="footer__copyright">
+    <!-- <div class="top">
+      <span>Thanks to</span>
+    </div> -->
+    <div class="bottom">
+      <span>Shakil Ahmed</span>
+      <img class="emoji" src="{{site.baseurl}}/img/emojis/rockon.png" alt="emoji">
+    </div>
+  </div>
+  <div class="footer__links ml-auto">
+    {% for link in site.social %}
+    <a href="{{link.url}}" target="_blank" title="{{link.title}}">
+      <span class="text">{{link.title}}</span>
+      <img src="{{site.baseurl}}/img/social/{{link.title}}.svg" alt="{{link.title}}">
+    </a>
+    {% endfor %}
+  </div>
+</footer>

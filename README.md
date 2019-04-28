@@ -1,0 +1,1 @@
+This is my portfolio website where I discussed my skills and experiences. Special thanks to [Brittany Chiang](https://github.com/bchiang7/) who made this template.

@@ -1,0 +1,30 @@
+languages:
+  - item: JavaScript (ES6)
+  - item: Java
+  - item: HTML
+  - item: CSS/SASS
+  - item: Python
+  - item: C++
+  - item: SQL
+
+frameworks:
+  - item: Express
+  - item: React
+  - item: Node
+  - item: Bootstrap
+  - item: Spring
+  - item: Tensorflow
+  - item: OpenCV
+
+tools:
+  - item: Bash
+  - item: Git & Github
+  - item: Gulp & Maven
+  - item: Chrome DevTools
+  - item: Postman
+  - item: MongoDB
+
+design:
+  - item: Adobe Xd
+  - item: Photoshop
+  - item: Illustrator
