@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/bchiang7/bchiang7.github.io",
   "dependencies": {
-    "natives": "^1.1.6"
+    "natives": "^1.1.6",
+    "node-sass": "^4.13.1"
   }
 }

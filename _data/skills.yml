@@ -1,30 +1,26 @@
 languages:
-  - item: JavaScript (ES6)
-  - item: Java
-  - item: HTML
-  - item: CSS/SASS
+  - item: JavaScript
   - item: Python
   - item: C++
+  - item: Dart
+  - item: HTML, CSS
   - item: SQL
+  - item: Shell
 
 frameworks:
-  - item: Express
   - item: React
-  - item: Node
+  - item: jQuery
+  - item: Django
+  - item: Pytorch
+  - item: Flutter
   - item: Bootstrap
-  - item: Spring
-  - item: Tensorflow
-  - item: OpenCV
 
 tools:
   - item: Bash
-  - item: Git & Github
-  - item: Gulp & Maven
-  - item: Chrome DevTools
+  - item: Git
   - item: Postman
-  - item: MongoDB
 
 design:
-  - item: Adobe Xd
+  - item: Figma
   - item: Photoshop
   - item: Illustrator
