@@ -1,7 +1,7 @@
 languages:
   - item: JavaScript
   - item: Python
-  - item: C++
+  - item: Go
   - item: Dart
   - item: HTML, CSS
   - item: SQL
@@ -11,13 +11,14 @@ frameworks:
   - item: React
   - item: jQuery
   - item: Django
+  - item: Express
   - item: Pytorch
   - item: Flutter
   - item: Bootstrap
 
 tools:
-  - item: Bash
   - item: Git
+  - item: Docker
   - item: Postman
 
 design:
