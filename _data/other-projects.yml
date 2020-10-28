@@ -1,20 +1,78 @@
+- name: eKroyBikroy
+  url: http://ekroybikroy.com/
+  code: 
+  description: Classified website to buy & sell products
+  used:
+    - thing: HTML5
+    - thing: SASS
+    - thing: Bootstrap
+    - thing: jQuery
+    - thing: Django
+    - thing: MySQL
+
+- name: Minder
+  url: https://github.com/shakilahmmeed/minder
+  code: 
+  description: Web app for send & receive money
+  used:
+    - thing: Node
+    - thing: Express
+    - thing: EJS
+    - thing: MySQL
+
 - name: Green Street Intl. School
   url: http://greenstreetintlschool.com/
   code: 
-  description: Laravel based School Management Software
+  description: Complete school management system
   used:
     - thing: HTML5
     - thing: SASS
     - thing: Bootstrap
     - thing: jQuery
     - thing: Laravel
+    - thing: MySQL
+
+- name: DIU CPC
+  url: https://cpc.daffodilvarsity.edu.bd/
+  code: 
+  description: Website for DIU Computer Programming Club
+  used:
+    - thing: HTML5
+    - thing: SASS
+    - thing: Bootstrap
+    - thing: React
+    - thing: Gatsby.js
+    - thing: GraphQL
 
 - name: RankUp
   url: https://www.shakilahmed.com/rankup/
   code: 
-  description: A Simple HTML template for Marketing Agency
+  description: 22 Page template for business agency
   used:
     - thing: HTML5
     - thing: SASS
     - thing: Bootstrap
     - thing: jQuery
+
+- name: DjTrip
+  url: https://github.com/shakilahmmeed/djTrip
+  code: 
+  description: Tour website made with Django
+  used:
+    - thing: HTML5
+    - thing: CSS
+    - thing: Bootstrap
+    - thing: jQuery
+    - thing: Django
+    - thing: MySQL
+
+- name: Quest
+  url: https://github.com/shakilahmmeed/quest
+  code: 
+  description: Golang powered Quora clone
+  used:
+    - thing: HTML5
+    - thing: CSS
+    - thing: Go
+    - thing: Django
+    - thing: MySQL

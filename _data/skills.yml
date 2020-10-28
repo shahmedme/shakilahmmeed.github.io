@@ -2,26 +2,29 @@ languages:
   - item: JavaScript
   - item: Python
   - item: Go
-  - item: Dart
   - item: HTML, CSS
   - item: SQL
   - item: Shell
 
 frameworks:
+  - item: Bootstrap
   - item: React
   - item: jQuery
-  - item: Django
   - item: Express
+  - item: Django
+  - item: Django REST Framework
   - item: Pytorch
   - item: Flutter
-  - item: Bootstrap
+
+database:
+  - item: MySQL
+  - item: MongoDB
+  - item: Redis
 
 tools:
   - item: Git
+  - item: GitHub
+  - item: Azure
   - item: Docker
-  - item: Postman
-
-design:
   - item: Figma
-  - item: Photoshop
-  - item: Illustrator
+

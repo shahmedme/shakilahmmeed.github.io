@@ -1,9 +1,14 @@
-- company: DIU CPC
-  url: http://cpc.daffodilvarsity.edu.bd/
-  time: Jan 2019 - Apr 2019
-  position: Front-end Development Trainer
+- company: Hacksprint
+  url: https://github.com/cpcdiu/Hacksprint
+  time: Mar 2020 - Sep 2020
+  position: Lead Maintainer
 
 - company: Codeboxr
   url: https://codeboxr.com/
-  time: May 2018 - Aug 2018
+  time: Jan 2018 - Aug 2018
   position: Intern Front-end Developer
+
+- company: DIU CPC
+  url: http://cpc.daffodilvarsity.edu.bd/
+  time: Jan 2020 - Present
+  position: Vice President
