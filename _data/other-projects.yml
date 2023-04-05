@@ -10,16 +10,6 @@
     - thing: Ant Design
     - thing: JWT
 
-- name: Shaplachart
-  url: https://www.npmjs.com/package/shaplachart
-  code: 
-  description: Javascript chart library for data visualization
-  used:
-    - thing: D3
-    - thing: Rollup
-    - thing: Babel
-    - thing: Sass
-
 - name: Boigram
   url: https://boigram.com/
   code: 
