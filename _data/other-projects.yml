@@ -1,78 +1,79 @@
-- name: eKroyBikroy
-  url: http://ekroybikroy.com/
+- name: Shodai
+  url: https://shodai.shakilahmed.com/
   code: 
-  description: Classified website to buy & sell products
+  description: eCommerce grocery application
   used:
-    - thing: HTML5
-    - thing: SASS
-    - thing: Bootstrap
-    - thing: jQuery
-    - thing: Django
-    - thing: MySQL
-
-- name: Minder
-  url: https://github.com/shakilahmmeed/minder
-  code: 
-  description: Web app for send & receive money
-  used:
-    - thing: Node
-    - thing: Express
-    - thing: EJS
-    - thing: MySQL
-
-- name: LaraSchool
-  url: https://github.com/shakilahmmeed/laraschool
-  code: 
-  description: Complete school management system
-  used:
-    - thing: HTML5
-    - thing: SASS
-    - thing: Bootstrap
-    - thing: jQuery
-    - thing: Laravel
-    - thing: MySQL
-
-- name: DIU CPC
-  url: https://cpc.daffodilvarsity.edu.bd/
-  code: 
-  description: Website for DIU Computer Programming Club
-  used:
-    - thing: HTML5
-    - thing: SASS
-    - thing: Bootstrap
     - thing: React
-    - thing: Gatsby.js
+    - thing: Redux
+    - thing: TailwindCSS
+    - thing: TypeScript
+    - thing: Ant Design
+    - thing: JWT
+
+- name: Shaplachart
+  url: https://www.npmjs.com/package/shaplachart
+  code: 
+  description: Javascript chart library for data visualization
+  used:
+    - thing: D3
+    - thing: Rollup
+    - thing: Babel
+    - thing: Sass
+
+- name: Boigram
+  url: https://boigram.com/
+  code: 
+  description: Online book marketplace
+  used:
+    - thing: Next.js
+    - thing: TailwindCSS
+    - thing: Social Auth
+
+- name: Testfuel
+  url: https://testfuel.io/
+  code: 
+  description: SaaS for Test case management and QA automation system
+  used:
+    - thing: React
+    - thing: Redux-toolkit
+    - thing: TypeScript
+    - thing: Nest
+    - thing: MongoDB
+
+- name: Upstarter
+  url: https://upstarter.shakilahmed.com/
+  code: 
+  description: Social site for startup community
+  used:
+    - thing: React
+    - thing: TailwindCSS
+    - thing: Apollo
     - thing: GraphQL
+
+- name: MeetingSpace
+  url: https://meetingspace.netlify.app/
+  code: 
+  description: SaaS for tracking and managing meeting in organization
+  used:
+    - thing: React
+    - thing: Redux
+    - thing: Material-UI
+
+- name: MERN Commerce
+  url: https://github.com/shakilahmmeed/mern-commerce
+  code: 
+  description: Headless CMS for your eCommerce app
+  used:
+    - thing: React
+    - thing: Axios
+    - thing: Express
 
 - name: RankUp
   url: https://shakilahmmeed.github.io/rankup/
   code: 
-  description: 22 Page responsive template for business agency
+  description: Responsive template for business agency
   used:
     - thing: HTML5
-    - thing: SASS
+    - thing: Sass
     - thing: Bootstrap
     - thing: jQuery
-
-- name: DjTrip
-  url: https://github.com/shakilahmmeed/djTrip
-  code: 
-  description: Tour website made with Django
-  used:
-    - thing: HTML5
-    - thing: CSS
-    - thing: Bootstrap
-    - thing: jQuery
-    - thing: Django
-    - thing: MySQL
-
-- name: Quest
-  url: https://github.com/shakilahmmeed/quest
-  code: 
-  description: Golang powered Quora clone
-  used:
-    - thing: HTML5
-    - thing: CSS
-    - thing: Go
-    - thing: Django
-    - thing: MySQL
