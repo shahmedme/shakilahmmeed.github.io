@@ -17,7 +17,7 @@
     "gulp-clean-css": "3.10.0",
     "gulp-eslint": "5.0.0",
     "gulp-imagemin": "4.1.0",
-    "gulp-sass": "^4.0.1",
+    "gulp-sass": "^5.1.0",
     "gulp-uglify": "3.0.1"
   },
   "repository": {
@@ -27,6 +27,6 @@
   "homepage": "https://github.com/bchiang7/bchiang7.github.io",
   "dependencies": {
     "natives": "^1.1.6",
-    "node-sass": "^4.13.1"
+    "node-sass": "^8.0.0"
   }
 }
