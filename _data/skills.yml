@@ -5,14 +5,15 @@ languages:
   - item: Node
 
 frameworks:
-  - item: TailwindCSS
   - item: React
+  - item: React Native
   - item: Next
+  - item: TailwindCSS
   - item: Redux-toolkit
   - item: D3
 
 database:
-  - item: Supabase
+  - item: PostgreSQL
   - item: MongoDB
 
 tools:

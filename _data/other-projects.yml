@@ -50,7 +50,7 @@
     - thing: Material-UI
 
 - name: MERN Commerce
-  url: https://github.com/shakilahmmeed/mern-commerce
+  url: https://github.com/shakilcz/mern-commerce
   code: 
   description: Headless CMS for your eCommerce app
   used:
@@ -59,7 +59,7 @@
     - thing: Express
 
 - name: RankUp
-  url: https://shakilahmmeed.github.io/rankup/
+  url: https://shakilcz.github.io/rankup/
   code: 
   description: Responsive template for business agency
   used:

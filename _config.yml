@@ -2,25 +2,25 @@
 name: Shakil Ahmed
 title: Shakil Ahmed | Full Stack Dev & AI Researcher
 description: full stack developer & AI researcher focused on building building web services & intelligent machine
-url: "https://shakilahmmeed.github.io/"
+url: "https://shakilcz.github.io/"
 baseurl: ""
 email: shakil.hv@gmail.com
-cover: https://shakilahmmeed.github.io/img/og.png
-logo: https://shakilahmmeed.github.io/img/emojis/technologist.png
-resume: https://shakilahmmeed.github.io/resume.pdf
+cover: https://shakilcz.github.io/img/og.png
+logo: https://shakilcz.github.io/img/emojis/technologist.png
+resume: https://shakilcz.github.io/resume.pdf
 social:
   - title: email
     url: shakil.hv@gmail.com
   - title: twitter
-    url: https://twitter.com/shakilahmmeed
+    url: https://twitter.com/shakilcz
   - title: instagram
-    url: https://instagram.com/shakilahmmeed
+    url: https://instagram.com/shakilcz
   - title: Facebook
-    url: https://facebook.com/shakilahmmeed
+    url: https://facebook.com/shakilcz
   - title: github
-    url: https://github.com/shakilahmmeed
+    url: https://github.com/shakilcz
   - title: linkedin
-    url: https://www.linkedin.com/in/shakilahmmeed
+    url: https://www.linkedin.com/in/shakilcz
 
 # Build settings
 markdown: kramdown
